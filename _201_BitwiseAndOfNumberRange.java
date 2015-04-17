@@ -28,7 +28,7 @@ public class _201_BitwiseAndOfNumberRange {
 				bits[i] = 0;
 		}
 		
-		for(int i=21; i>=0; i--) {
+		for(int i=31; i>=0; i--) {
 			result <<= 1;
 			result += bits[i];
 		}
